@@ -1,0 +1,86 @@
+.clipped-image img {
+    border-radius: 50%; /* 丸く切り抜く */
+    width: 200px; /* 画像の幅を設定 */
+    height: 200px; /* 画像の高さを設定 */
+    flex-basis: 70%; /* 左揃えに戻すため、以前の値に戻します */
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+body {
+    color: #ffffff;
+}
+
+.right{
+        text-align: right;
+}
+
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the background color and font styles for the entire page */
+body {
+    background-color: #313338;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+/* Style the main content area */
+main {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Style the sidebar */
+
+
+/* Style the navigation menu */
+
+
+/* Style the footer */
+
+/* スタイルを修正して左の記事を左揃えに */
+main {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
