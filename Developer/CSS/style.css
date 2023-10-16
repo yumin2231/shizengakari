@@ -1,0 +1,91 @@
+.clipped-image img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    flex-basis: 70%;
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000000;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+body {
+    color: #ffffff;
+}
+
+.right{
+        text-align: right;
+}
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #313338;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #ffffff;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+main {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    background-color: #5865f2; 
+    color: rgb(255, 255, 255); 
+    border: none; 
+    padding: 8px 16px; 
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px; 
+}
